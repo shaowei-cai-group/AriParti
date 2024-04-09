@@ -1,0 +1,5 @@
+sat 12821
+unsat 4405
+solved 17226
+failed 8132
+PAR-2 20123111

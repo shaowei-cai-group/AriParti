@@ -1,0 +1,12 @@
+.git
+.gitignore
+
+AE-test-output/*
+benchmarks
+docker
+figures
+linxi-develop
+paper-experiment-results
+test-instances
+LICENSE.txt
+README.md

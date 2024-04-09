@@ -1,0 +1,30 @@
+
+# Partitioner files
+/src/partitioner/*build*/**
+# Auto generated files in Partitioner.
+config.log
+/src/partitioner/config.status
+install_tactic.cpp
+mem_initializer.cpp
+gparams_register_modules.cpp
+config-debug.mk
+config-release.mk
+/src/partitioner/src/ast/pattern/database.h
+/src/partitioner/src/util/version.h
+/src/partitioner/src/util/z3_version.h
+
+/src/partitioner/.vscode
+
+# .hpp files are automatically generated
+*.hpp
+
+*.pyc
+
+# AriParti
+# /solver
+/linxi-develop
+/.vscode
+/benchmarks
+/AE-test-output
+/docker
+scripts/__pycache__

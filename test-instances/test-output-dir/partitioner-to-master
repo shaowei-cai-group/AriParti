@@ -1,0 +1,34 @@
+0 debug-info get start-time = 1706177475
+0 new-task 0 -1
+0 debug-info best var: var info: id = 5, split cnt = 0, cz = 1, deg = 1, occ = 316, width = 1048576
+0 unsat-task 1 0
+0 new-task 2 0
+0 debug-info best var: var info: id = 4, split cnt = 0, cz = 1, deg = 1, occ = 301, width = 1048576
+0 unsat-task 3 2
+0 new-task 4 2
+0 debug-info best var: var info: id = 3, split cnt = 0, cz = 1, deg = 1, occ = 274, width = 1048576
+0 unsat-task 5 4
+1 new-task 6 4
+1 debug-info best var: var info: id = 6, split cnt = 0, cz = 1, deg = 1, occ = 270, width = 1048576
+1 unsat-task 7 6
+1 new-task 8 6
+1 debug-info best var: var info: id = 2, split cnt = 0, cz = 1, deg = 1, occ = 256, width = 1048576
+1 unsat-task 9 8
+1 new-task 10 8
+1 debug-info best var: var info: id = 5, split cnt = 1, cz = 0, deg = 1, occ = 317, width = 1024
+1 new-task 11 10
+1 new-task 12 10
+1 debug-info best var: var info: id = 4, split cnt = 1, cz = 0, deg = 1, occ = 302, width = 1024
+1 new-task 13 11
+1 new-task 14 11
+1 debug-info best var: var info: id = 5, split cnt = 2, cz = 0, deg = 1, occ = 305, width = 8
+1 new-task 15 12
+1 new-task 16 12
+1 debug-info best var: var info: id = 3, split cnt = 1, cz = 0, deg = 1, occ = 275, width = 1024
+1 new-task 17 13
+13 debug-info best var: var info: id = 4, split cnt = 2, cz = 0, deg = 1, occ = 302, width = 1024
+13 new-task 19 15
+13 new-task 20 15
+13 debug-info best var: var info: id = 4, split cnt = 3, cz = 0, deg = 1, occ = 302, width = 1024
+13 new-task 21 16
+13 new-task 22 16

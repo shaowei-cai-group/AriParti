@@ -1,0 +1,100 @@
+0 start-time 1706177475.8290334
+0 partitioner-debug-info get start-time = 1706177475
+0 make-task id: 0, make-time: 0.10, parent: -1, state: waiting
+0 run-task 0
+0 runnings 1
+0 waitings 1
+0 partitioner-debug-info best var: var info: id = 5, split cnt = 0, cz = 1, deg = 1, occ = 316, width = 1048576
+0 make-task id: 1, make-time: 0.10, parent: 0, state: unsat, reason: -1
+0 make-task id: 2, make-time: 0.12, parent: 0, state: waiting
+0 run-task 2
+0 runnings 2
+0 waitings 1
+0 partitioner-debug-info best var: var info: id = 4, split cnt = 0, cz = 1, deg = 1, occ = 301, width = 1048576
+0 make-task id: 3, make-time: 0.13, parent: 2, state: unsat, reason: -1
+0 make-task id: 4, make-time: 0.15, parent: 2, state: waiting
+0 run-task 4
+0 runnings 3
+0 waitings 1
+0 partitioner-debug-info best var: var info: id = 3, split cnt = 0, cz = 1, deg = 1, occ = 274, width = 1048576
+0 make-task id: 5, make-time: 0.15, parent: 4, state: unsat, reason: -1
+0 make-task id: 6, make-time: 0.18, parent: 4, state: waiting
+0 run-task 6
+0 runnings 4
+0 waitings 1
+0 partitioner-debug-info best var: var info: id = 6, split cnt = 0, cz = 1, deg = 1, occ = 270, width = 1048576
+0 make-task id: 7, make-time: 0.18, parent: 6, state: unsat, reason: -1
+0 make-task id: 8, make-time: 0.21, parent: 6, state: waiting
+0 run-task 8
+0 runnings 5
+0 waitings 1
+0 partitioner-debug-info best var: var info: id = 2, split cnt = 0, cz = 1, deg = 1, occ = 256, width = 1048576
+0 make-task id: 9, make-time: 0.21, parent: 8, state: unsat, reason: -1
+0 make-task id: 10, make-time: 0.25, parent: 8, state: waiting
+0 run-task 10
+0 runnings 6
+0 waitings 1
+0 partitioner-debug-info best var: var info: id = 5, split cnt = 1, cz = 0, deg = 1, occ = 317, width = 1024
+0 make-task id: 11, make-time: 0.28, parent: 10, state: waiting
+0 run-task 11
+0 runnings 7
+0 waitings 1
+0 make-task id: 12, make-time: 0.38, parent: 10, state: waiting
+0 partitioner-debug-info best var: var info: id = 4, split cnt = 1, cz = 0, deg = 1, occ = 302, width = 1024
+0 make-task id: 13, make-time: 0.38, parent: 11, state: waiting
+0 make-task id: 14, make-time: 0.38, parent: 11, state: waiting
+0 partitioner-debug-info best var: var info: id = 5, split cnt = 2, cz = 0, deg = 1, occ = 305, width = 8
+0 make-task id: 15, make-time: 0.38, parent: 12, state: waiting
+0 make-task id: 16, make-time: 0.48, parent: 12, state: waiting
+0 partitioner-debug-info best var: var info: id = 3, split cnt = 1, cz = 0, deg = 1, occ = 275, width = 1024
+0 make-task id: 17, make-time: 0.48, parent: 13, state: waiting
+13 task-done 11 unsat
+13 unsat-node 11
+13 unsat-node 13
+13 unsat-by-ancestor 13 11
+13 unsat-node 17
+13 unsat-by-ancestor 17 11
+13 unsat-node 14
+13 unsat-by-ancestor 14 11
+13 run-task 12
+13 runnings 7
+13 waitings 6
+13 partitioner-debug-info best var: var info: id = 4, split cnt = 2, cz = 0, deg = 1, occ = 302, width = 1024
+13 make-task id: 19, make-time: 13.14, parent: 15, state: waiting
+13 make-task id: 20, make-time: 13.14, parent: 15, state: waiting
+13 partitioner-debug-info best var: var info: id = 4, split cnt = 3, cz = 0, deg = 1, occ = 302, width = 1024
+13 make-task id: 21, make-time: 13.14, parent: 16, state: waiting
+13 make-task id: 22, make-time: 13.24, parent: 16, state: waiting
+17 task-done 12 unsat
+17 unsat-node 12
+17 unsat-by-children 10 11 12
+17 terminated-by-propagate 10 12
+17 unsat-node 10
+17 unsat-by-children 8 9 10
+17 terminated-by-propagate 8 12
+17 unsat-node 8
+17 unsat-by-children 6 7 8
+17 terminated-by-propagate 6 12
+17 unsat-node 6
+17 unsat-by-children 4 5 6
+17 terminated-by-propagate 4 12
+17 unsat-node 4
+17 unsat-by-children 2 3 4
+17 terminated-by-propagate 2 12
+17 unsat-node 2
+17 unsat-by-children 0 1 2
+17 terminated-by-propagate 0 12
+17 unsat-node 0
+17 unsat-node 15
+17 unsat-by-ancestor 15 12
+17 unsat-node 19
+17 unsat-by-ancestor 19 12
+17 unsat-node 20
+17 unsat-by-ancestor 20 12
+17 unsat-node 16
+17 unsat-by-ancestor 16 12
+17 unsat-node 21
+17 unsat-by-ancestor 21 12
+17 unsat-node 22
+17 unsat-by-ancestor 22 12
+17 unsat-root-task 12

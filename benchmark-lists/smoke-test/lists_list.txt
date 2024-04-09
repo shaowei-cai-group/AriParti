@@ -1,0 +1,4 @@
+QF_LIA QF_LIA-smoke_test_list-4
+QF_LRA QF_LRA-smoke_test_list-4
+QF_NIA QF_NIA-smoke_test_list-4
+QF_NRA QF_NRA-smoke_test_list-4
