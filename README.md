@@ -78,7 +78,6 @@ unsat
 
 Artifact: AriParti (**Ari**thmetic **Parti**tioning for Dynamic Distributed SMT Solving)
 Paper Title: *Distributed SMT Solving Based on Dynamic Variable-level Partitioning*
-Submission ID (Track CAV2024): 5213
 Submission ID (Track AE-CAV2024): 9962
 Zenodo DOI: 10.5281/zenodo.10947054
 
