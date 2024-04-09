@@ -76,10 +76,10 @@ unsat
 
 ### Basic Information
 
-Artifact: AriParti (**Ari**thmetic **Parti**tioning for Dynamic Distributed SMT Solving)
-Paper Title: *Distributed SMT Solving Based on Dynamic Variable-level Partitioning*
-Submission ID (Track AE-CAV2024): 9962
-Zenodo DOI: 10.5281/zenodo.10948392
+- Artifact: AriParti (**Ari**thmetic **Parti**tioning for Dynamic Distributed SMT Solving)
+- Paper Title: *Distributed SMT Solving Based on Dynamic Variable-level Partitioning*
+- Submission ID (Track AE-CAV2024): 9962
+- Zenodo DOI: 10.5281/zenodo.10948392
 
 We claim for available and reusable badges.
 If it does not fulfill the reusable criteria, we claim the functional badge. 
@@ -106,7 +106,7 @@ A machine with a minimum of 16 cores is necessary to evaluate AriParti in a full
 
 Firstly, you need to obtain the number of CPU cores in your machine.
 
-In Linux:
+In Linux using Bash:
 ```bash
 lscpu | grep "CPU(s):"
 ```
@@ -118,14 +118,26 @@ In Windows using PowerShell, you can use the following command:
 
 After obtaining the number of CPU cores in your machine, you can load the docker image and start the evaluation.
 
+Bash:
 ```bash
 docker load < docker/docker-ariparti-image
 ```
 
+PowerShell:
+```
+docker load -i docker\docker-ariparti-image
+```
+
 Next, execute the following command (Please note that you should perform the following operations in the `AriParti-AE` directory):
 
+Bash:
 ```bash
 docker run -v `pwd`/AE-test-output:/AriParti/AE-test-output -v `pwd`/benchmarks:/AriParti/benchmarks:ro --rm -it docker-ariparti
+```
+
+PowerShell:
+```
+docker run -v ${PWD}\AE-test-output:/AriParti/AE-test-output -v ${PWD}\benchmarks:/AriParti/benchmarks:ro --rm -it docker-ariparti
 ```
 
 The command above starts the docker container and places you in a bash environment, where you can inspect the source code or run the experiments.
