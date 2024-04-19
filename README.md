@@ -5,6 +5,8 @@ Our open-source tool, AriParti, is available on [GitHub-AriParti](https://github
 Built upon a dynamic parallel framework, AriParti employs variable-level partitioning in SMT solving, as detailed in our paper, *Distributed SMT Solving Based on Dynamic Variable-level Partitioning*.
 Our approach is particularly tailored to arithmetic theories and is compatible with any SMT solvers capable of interpreting the `smt2` input format.
 
+AriParti includes code from the Z3 project, which is licensed under the MIT License.
+
 It is licensed under the [MIT license](LICENSE.txt).
 
 For tool evaluation purpose, one can directly go to the `Artifact Evaluation` section.
@@ -88,7 +90,7 @@ If it does not fulfill the reusable criteria, we claim the functional badge.
 
 The main components of our work primarily lie in `src/AriParti.py`, and the source code is located in the `src/partitioner/src` directory.
 
-![Framework](figures/Framework.png)
+![Framework](figures/Framework.jpg)
 
 The Master in the framework outlined in Section 3 of our paper, responsible for managing and scheduling the entire distributed and parallel-solving process, is implemented in `AriParti.py`.
 

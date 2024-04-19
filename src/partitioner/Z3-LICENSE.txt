@@ -1,3 +1,10 @@
+AriParti
+Copyright (c) 2024, Mengyu Zhao, Shaowei Cai
+Key Laboratory of System Software (Chinese Academy of Sciences) and State Key Laboratory of Computer Science, Institute of Software, Chinese Academy of Sciences, Beijing, China
+MIT License
+
+-------------------------------------------------------------------------------
+
 Z3
 Copyright (c) Microsoft Corporation
 All rights reserved. 
