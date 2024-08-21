@@ -9,7 +9,11 @@ AriParti includes code from the Z3 project, which is licensed under the MIT Lice
 
 It is licensed under the [MIT license](LICENSE.txt).
 
-For tool evaluation purpose, one can directly go to the `Artifact Evaluation` section.
+## Cite this work
+
+If you find AriParti useful in your research or wish to reference our approach, please use the following citation:
+
+Mengyu Zhao, Shaowei Cai, Yuhang Qian (2024). Distributed SMT Solving Based on Dynamic Variable-Level Partitioning. In: Gurfinkel, A., Ganesh, V. (eds) Computer Aided Verification. CAV 2024. Lecture Notes in Computer Science, vol 14681. Springer, Cham. https://doi.org/10.1007/978-3-031-65627-9_4
 
 ## Requirements
 
